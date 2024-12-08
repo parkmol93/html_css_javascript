@@ -119,3 +119,21 @@ legend{
 a{
 	text-decoration: none;
 }
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 13px;
+}
+
+.TOC{
+	width: 346px;
+	height: 265px;
+	padding: 6px; 5px; 12px; 5px;]
+	margin: 100px auto;
+	border: 1px solid #000;
+}
