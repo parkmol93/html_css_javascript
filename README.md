@@ -44,6 +44,47 @@
 
 
 
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<div class="TOC">
+		<p>목차</p>
+		
+		<ol>
+			<li>역사
+				<ol>
+					<li>개발</li>
+					<li>최초 규격</li>
+					<li>표준 버전의 역사
+						<ol>
+							<li>HTML 버전 스케줄</li>
+							<li>HTML 초안 버전 스케쥴</li>
+							<li>XHTML 버전</li>
+						</ol>
+					</li>
+				</ol>
+			<li>마크업
+				<ol>
+					<li>HTML 요소</li>
+					<li>데이터 형식</li>
+					<li>문서 형식 선언</li>
+				</ol>
+			</li>
+		</ol>
+	</div>
+	
+	
+	
+	
+</html>
+
+
+
+
 *{
 	margin: 0;
 	padding: 0;
