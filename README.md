@@ -29,10 +29,11 @@
 		<button type="submit">
 			LOGIN
 		</button>
-		
-		<a href="#" target="_blank" title="find-password">
+		<p>
+			<a href="#" target="_blank" title="find-password">
 			Forgot your password?
 		</a>
+		</p>
 	</div>
 	
 	
