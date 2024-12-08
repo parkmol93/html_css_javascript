@@ -40,3 +40,41 @@
 	
 	
 </html>
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.login{
+	margin: 100px 0;
+	padding: 28px 38px;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+label input{
+	background-color:#eaeaea;
+	
+}
+
+button[type="submit"]:nth-of-type(2){
+	background-color:#373F3C;
+}
+
+fieldset{
+	border:none;
+}
+
+legend{
+	position:absolute; /*display:absolute; (X) */
+	top:-9999px;
+}
+
+a{
+	text-decoration: none;
+}
