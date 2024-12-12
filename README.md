@@ -85,6 +85,32 @@
 
 
 
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<div class="flex-container">
+		<div class=pic_1></div>
+		<div class=pic_2></div>
+		<div class=pic_3></div>
+		<div class=pic_4></div>
+		<div class=pic_5></div>
+		<div class=pic_6></div>
+	</div>
+	
+	
+	
+	
+</html>
+
+
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -136,4 +162,37 @@ a{
 	padding: 6px; 5px; 12px; 5px;]
 	margin: 100px auto;
 	border: 1px solid #000;
+}
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 510px;
+	height: auto; /*스크롤을 위해 고정 높이 제거*/
+}
+
+.flex-container > div{
+	width: calc(33.33% - 10px); /* 한 줄에 3개씩 배치 */
+	height: 240px;
+	margin: 5px;
+	border: 1px solid #000;
+	
+}
+
+.flex-container > div:nth-child(1){
+	background-image:url("#");
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
 }
