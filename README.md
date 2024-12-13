@@ -111,6 +111,32 @@
 
 
 
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<div class="grid-container">
+		<div class="grid-item" id="item_1">item_1</div>
+		<div class="grid-item" id="item_2">item_2</div>
+		<div class="grid-item" id="item_3">item_3</div>
+		<div class="grid-item" id="item_4">item_4</div>
+		<div class="grid-item" id="item_5">item_5</div>
+		<div class="grid-item" id="item_6">item_6</div>
+		<div class="grid-item" id="item_7">item_7</div>
+		<div class="grid-item" id="item_8">item_8</div>
+		<div class="grid-item" id="item_9">item_9</div>
+		<div class="grid-item" id="item_10">item_10</div>
+	</div>
+
+	
+</html>
+
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -195,4 +221,35 @@ a{
 	background-size: cover;
 	background-position: center;
 	background-attachment: scroll;
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.grid-container{
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 100px 100px 100px;
+}
+
+.grid-item:nth-child(2n){
+	background-color: #000;
+}
+
+#item_2{
+	grid-column: 2/4;
+	grid-row: 1/3;
+}
+
+#item_3, #item_5{
+	grid-column: 4/6;
 }
